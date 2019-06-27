@@ -1,0 +1,62 @@
+:root{
+    --darkbox: rgba(0,0,0,0.6);
+    --textcolor: rgba(255,255,255);
+    --hovbc:rgba(255,0,0,0.8);
+}
+body{
+    margin:0;
+    
+}
+
+#main-box{
+    position:relative;
+    border: 0px;
+    width: 650px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--darkbox);
+    color: var(--textcolor);
+    margin: 0 auto;
+    top: 25%;
+    box-shadow:0px 8px 5px purple, 0px 8px 5px teal inset;
+}
+a{
+    text-decoration: none;
+    border: 0px solid;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    width: 40%;
+    height: 10%;
+    background-color: rgba(0,0,0,0.9);
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'Inconsolata',serif;
+    font-weight: bolder;
+}
+#link-div{
+    display: flex;
+}
+#main-box h1{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 65px;
+    font-weight: bold;
+    text-shadow: 0px 3px white;
+    color: teal;
+}
+#wrapper{
+    background-image: url("drops-feather-feathers-66875.jpg");
+    height: 100vh;
+}
+a:hover{
+    background-color: var(--hovbc);
+    color:black;
+}
+h1:hover{
+    color:goldenrod;
+}
+p{
+    line-height: 30px;
+}
