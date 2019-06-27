@@ -49,6 +49,8 @@ a{
 #wrapper{
     background-image: url("drops-feather-feathers-66875.jpg");
     height: 100vh;
+    background-position: center;
+    background-size:cover; 
 }
 a:hover{
     background-color: var(--hovbc);
